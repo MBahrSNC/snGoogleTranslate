@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2017-07-17 19:05:24">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Google Translate</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>8f58a605db000300635c793ebf9619cd</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-07-17 19:05:24</sys_created_on>
+<sys_id>3e448b09db400300635c793ebf96197f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-07-17 19:05:24</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_script_3368aa45db000300635c793ebf96193d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;name&gt;Google Translate&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function google_translate ()
+{
+	if (typeof jQuery === 'function' &amp;&amp; typeof top.$j === 'function') {
+		jQuery(document).ready(function () {
+			var top = window.top;
+			var googleTranslate;
+			
+			googleTranslate = '&lt;div id="google_translate_element" class="navpage-header-content"&gt;' +
+			'&lt;/div&gt;' +
+			'&lt;script type="text/javascript"&gt;' +
+			'function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: "en", layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, "google_translate_element");}' +
+				'&lt;/script&gt;'+
+				'&lt;script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"&gt;' +
+				'&lt;/script&gt;';
+				top.$j('#sysparm_search').parents('div.navpage-header-content').first().before(googleTranslate);
+				
+			}
+			
+			);
+		}
+	}
+	google_translate();]]&gt;&lt;/script&gt;&lt;script_name/&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-07-17 17:08:26&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;3368aa45db000300635c793ebf96193d&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Google Translate&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_3368aa45db000300635c793ebf96193d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-07-17 19:03:11&lt;/sys_updated_on&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1879435260</payload_hash>
+<remote_update_set display_value="Google Translate">3e448b09db400300635c793ebf96197f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2017-07-17 19:05:24</sys_created_on>
+<sys_id>32448b09db400300635c793ebf961980</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>15d51eed0e50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2017-07-17 19:05:24</sys_updated_on>
+<table/>
+<target_name>Google Translate</target_name>
+<type>UI Script</type>
+<update_domain>global</update_domain>
+<update_guid>aac38b098e4003009fa36f973993cc7b</update_guid>
+<update_guid_history>aac38b098e4003009fa36f973993cc7b:-1879435260,8673c7499a40030035d29e8341cd9d56:-475190614,28828b85d14003004342fb8fbfe75a27:-973595538,0164f289b1000300250089ccb66fe5e5:818234458,d28c2209e3000300371db4b3e2a3c1bf:-86387250,8e5c2289810003003eea7b2c2c1cda60:1377599186,841c22099f0003005cff9a81b52eceba:1491064108,4e8baec5590003003cb3eda9cbb679dd:693769704,3d4b2a09540003005e443ff8560b94c3:1871200859,2f3aaac5fc000300c2a2ddbb56ae52f7:852060131,218962854c0003003f5c7c4a40a82990:1542377904</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
