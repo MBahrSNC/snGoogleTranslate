@@ -7,7 +7,7 @@ function google_translate ()
 				return;
 			}
 			top.google_translate_loaded = true;
-			
+
 			var googleTranslate;
 
 			googleTranslate = '<div id="google_translate_element" class="navpage-header-content">' +
