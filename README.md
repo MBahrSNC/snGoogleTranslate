@@ -11,5 +11,5 @@ Google Translate and ServiceNow integration.
 3. Click "Next" on Plugins Settings section (this can be changed at anytime).
 4. Browse to: https://your-instance.service-now.com
 5. Go to Retrieved Update Sets and select Import XML
-6. Import the XML file, preview, and then commit the update set.
+6. Import the XML file, preview, and then commit the update set. (UI Script source code is in src.js)
 7. Refresh your page and you should now see Google Translate in the upper right corner by your profile.
