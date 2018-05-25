@@ -6,9 +6,10 @@ Google Translate and ServiceNow integration.
 
 - [Google Translate Account][1]
 - UI16
-- Geneva, Helsinki, Istanbul, Jakarta releases
+- Istanbul, Jakarta, Kingston releases
+- Service Portal
 
-## Instructions
+## UI16 Instructions
 
 ### Google Translate Instructions
 
@@ -27,3 +28,19 @@ After all is done you're normal UI should look like
 ![Screenshot](./screenshot.png)
 
 [1]: https://translate.google.com/manager/website]
+
+## Service Portal Header Instructions
+
+1. Browse to Service Portal > Themes in the left navigator
+1. Select a theme such as the Stock theme
+1. Change the header from Stock Header to Stock Header w/ Google Translate
+1. Click on Update
+1. Browse to instance-name.service-now.com/sp
+
+Your Service Portal header should look like
+
+![SP-Screenshot](./sp-screenshot.png)
+
+Mobile
+
+![SP-Mobile-Screenshot](./sp-mobile-screenshot.png)
