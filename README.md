@@ -2,45 +2,71 @@
 
 Google Translate and ServiceNow integration.
 
+## What's new?
+
+- Properties Page
+- Connect Translate
+- Import Dictionary Labels
+- Import Choices
+
 ## Requirements
 
-- [Google Translate Account][1]
 - UI16
-- Istanbul, Jakarta, Kingston releases
+- Istanbul, Jakarta, Kingston, London, Madrid releases
 - Service Portal
+
+## Installation
+
+1. Go to Retrieved Update Sets and select Import XML
+2. Import the XML file, preview, and then commit the update set.
+3. Browse to snGoogleTranslate > Properties in the left navigation to view all the features included.
 
 ## UI16 Instructions
 
-### Google Translate Instructions
+1. Browse to snGoogleTranslate > Properties
+1. Enable the UI16 property
+1. Your screen should look like the below screenshot
 
-1. Browse to: [Google Translate Account][1] and log in.
-1. Click "Add Website now" and enter your instance.
-1. Click "Next" on Plugins Settings section (this can be changed at anytime).
-
-### Instance Instructions
-
-1. Go to Retrieved Update Sets and select Import XML
-1. Import the XML file, preview, and then commit the update set. (UI Script source code is in src.js)
-1. Refresh your page and you should now see Google Translate in the upper right corner by your profile.
-
-After all is done you're normal UI should look like
-
-![Screenshot](./screenshot.png)
-
-[1]: https://translate.google.com/manager/website]
+![Screenshot](./screenshots/screenshot.png)
 
 ## Service Portal Header Instructions
 
 1. Browse to Service Portal > Themes in the left navigator
-1. Select a theme such as the Stock theme
-1. Change the header from Stock Header to Stock Header w/ Google Translate
-1. Click on Update
-1. Browse to instance-name.service-now.com/sp
+2. Select a theme such as the Stock theme
+3. Change the header from Stock Header to Stock Header w/ Google Translate
+4. Click on Update
+5. Browse to instance-name.service-now.com/sp
 
 Your Service Portal header should look like
 
-![SP-Screenshot](./sp-screenshot.png)
+![SP-Screenshot](./screenshots/sp-screenshot.png)
 
-Mobile
+## Connect Translate
 
-![SP-Mobile-Screenshot](./sp-mobile-screenshot.png)
+Connect Translate is uses the Language (preferred_language) choice list on the sys_user table to determine which language to translate from and to.
+
+1. Enable one of the out of the box language plugins OR add a new choice such as Spanish with the value of es on the preferred_language field.
+2. Enable the Connect Translate property in snGoogleTranslate > Properties.
+3. Change the preferred_language of another user and send them a Connect message.
+
+You should get the results below
+
+![Connect-Translate](./screenshots/connect-translate.png)
+
+## Import Dictionary Labels
+
+This utilizes a fix script linked in the Properties page
+
+1. Enable the Import Dictionary Property.
+2. Click on the linked Fix Script.
+3. Enter the table name, source language, and target language.
+4. Run the fix script and validate the results
+
+## Import Choices
+
+This utilizes a fix script linked in the Properties page
+
+1. Enable the Import Choices and prevent duplicate choices property.
+2. Click on the linked Fix Script.
+3. Enter the table name, source language, target language, and the column name of the dictionary choice you want to translate.
+4. Run the fix script and validate the results

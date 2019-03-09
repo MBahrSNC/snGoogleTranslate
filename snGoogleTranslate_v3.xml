@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-03-04 02:04:14">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description> - Google Translate for UI16
+ - Google Translate for Service Portal (Header)
+ - Google Translate for Connect
+ - Google Translate for Dictionary Labels and Choices
+ - Google Translate Properties page</description>
+<inserted/>
+<name>snGoogleTranslate v3</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>573009fddb332300a383f34ebf9619a9</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>2184abd0dbc87300a383f34ebf961966</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_2a3a964edb332300a383f34ebf96190c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Enable this property and run &lt;a href="/sys_script_fix.do?sys_id=bfa5e20adb732300a383f34ebf96197e" target="_blank"&gt;snGoogleTranslate Import Script&lt;/a&gt;&#13;
+&lt;br&gt;&#13;
+&lt;b style="color:red"&gt;Run in non prod.  Export/import the XMLs after validation.&lt;/b&gt;</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>google.translate.import.dictionary</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-02-24 20:54:08</sys_created_on><sys_id>2a3a964edb332300a383f34ebf96190c</sys_id><sys_mod_count>6</sys_mod_count><sys_name>google.translate.import.dictionary</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_2a3a964edb332300a383f34ebf96190c</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-02-25 03:36:51</sys_updated_on><type>boolean</type><value>false</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=2a3a964edb332300a383f34ebf96190c"/></record_update>]]></payload>
+<payload_hash>-1722703599</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>2184abd0dbc87300a383f34ebf961967</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694549a6950000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>google.translate.import.dictionary</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>c08ad69099087300f2fa78f87c6f8cd8</update_guid>
+<update_guid_history>c08ad69099087300f2fa78f87c6f8cd8:-1722703599,2696ff0a2037230046557c8c9a7bf271:-1722703599,ffcd2bc696f32300559a1fb89dbc1e01:-1255114658,ba5aa2ca107323003cfca2e5c480b344:-2127368063,d52a6a8aff732300076615e9df1f4b32:-37114285,71f9a2caf87323004eebfd450d524539:-531143621,6e492a8a37732300c40280cb94e57794:-1818934283,db6a1a4e9a332300e305e57968f6340e:-252632998</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_param_defs_1c177dacdb176300a383f34ebf961996</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>sl</name><order>200</order><rest_message_function display_value="Google Translate">1c8529ecdbd36300a383f34ebf9619f8</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-01-26 05:58:04</sys_created_on><sys_id>1c177dacdb176300a383f34ebf961996</sys_id><sys_mod_count>2</sys_mod_count><sys_name>sl</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_1c177dacdb176300a383f34ebf961996</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-01-26 19:41:24</sys_updated_on><value>${sl}</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+<payload_hash>1850730060</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>2184abd0dbc87300a383f34ebf96196a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694556f65d0000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>sl</target_name>
+<type>HTTP Query Parameters</type>
+<update_domain>global</update_domain>
+<update_guid>09dd1e54fe08730087b4821e214bc9a4</update_guid>
+<update_guid_history>09dd1e54fe08730087b4821e214bc9a4:1850730060,fea3b8f04897a3009516dce55613e6a2:-850101012,f47775ec231763006ec93c1c6394f9d4:1992375516,1637f1ecb817630099e96d5a1dcf3a58:-1926758309</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_header_footer_7a606e61db521300e0d5f6dfbf9619ce</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_header_footer"&gt;&lt;sp_header_footer action="INSERT_OR_UPDATE"&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($rootScope, $scope, snRecordWatcher, spUtil, $location, $uibModal, cabrillo, $timeout, $window) {
+
+	$scope.avatarProfile = {
+		userID: $scope.user.sys_id,
+		name: $scope.user.name,
+		initials: $window.NOW.user_initials
+	};
+	
+	if ($window.NOW.user_avatar) {
+		$scope.avatarProfile.userImage = $window.NOW.user_avatar;
+	}
+
+	if (cabrillo.isNative())
+		$scope.isViewNative = true;
+
+	$scope.openPopUp = function() {
+		var url = "$chat_support.do?queueID=" + $scope.data.connect_support_queue_id;
+		var popup = window.open (url, "popup", "width=900, height=600");
+	};
+
+	$scope.openLogin = function () {
+		$scope.modalInstance = $uibModal.open({
+			templateUrl: 'modalLogin',
+			scope: $scope
+		});
+	};
+
+	var xsScreenSize = isXSScreenSize();
+	$scope.showXSAvatar = isXSScreenSize();
+	$scope.showAvatar = !isXSScreenSize();
+	
+	angular.element($window).on('resize', function () {
+		if(xsScreenSize !== isXSScreenSize() &amp;&amp; (!$scope.showXSAvatar || !$scope.showAvatar)){
+			$scope.showXSAvatar = true;
+			$scope.showAvatar = true;
+		}	   
+	});
+	
+	
+	function isXSScreenSize() {
+		return $window.matchMedia('(max-width: 767px)').matches;
+	}
+	
+	$rootScope.$on('sp.avatar_changed', function() {
+		$scope.userID = "";
+		$timeout(function(){
+			$scope.userID = $scope.user.sys_id;
+		});
+	});
+
+	$scope.isHomepage = function() {
+		if (!$scope.page.id)
+			return true;
+
+		if ($scope.page.id == $scope.portal.homepage_dv)
+			return true;
+
+		return false;
+	};
+}
+		]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;#google_translate_element {&amp;#13;
+  padding: 17px 0px 15px 0px;&amp;#13;
+  margin-right:5px;&amp;#13;
+&amp;#13;
+}&amp;#13;
+.goog-logo-link {&amp;#13;
+  display: none;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.skiptranslate {&amp;#13;
+  font-size:0;&amp;#13;
+}&amp;#13;
+.goog-te-gadget {&amp;#13;
+  font-size:0;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.goog-te-combo {&amp;#13;
+  width: 132px; &amp;#13;
+}&amp;#13;
+&amp;#13;
+.navbar {&amp;#13;
+  transition: 250ms opacity ease-in-out;&amp;#13;
+  -webkit-transition: 250ms opacity ease-in-out;&amp;#13;
+  border: 0;&amp;#13;
+  border-bottom: 4px solid $sp-navbar-divider-color;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.navbar-fade {&amp;#13;
+  opacity: 0.4;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.navbar-inverse .navbar-toggle {&amp;#13;
+  border-color: rgba(255, 255, 255, 0.25);&amp;#13;
+}&amp;#13;
+&amp;#13;
+header[role="banner"],&amp;#13;
+.nav &amp;gt; li &amp;gt; a {&amp;#13;
+  max-height: 60px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+@media screen and (max-width: 768px){&amp;#13;
+  .nav &amp;gt; li &amp;gt; a {&amp;#13;
+    padding-right: 0.5rem;&amp;#13;
+    padding-left: 0.5rem;&amp;#13;
+  }&amp;#13;
+}&amp;#13;
+&amp;#13;
+.navbar-brand {&amp;#13;
+  max-height: 60px;&amp;#13;
+  padding: 0;&amp;#13;
+  padding-bottom: 0.5rem;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.navbar-brand img, .navbar-brand span {&amp;#13;
+  margin-left: $sp-logo-margin-x;&amp;#13;
+  margin-right: $sp-logo-margin-x;&amp;#13;
+  margin-top: $sp-logo-margin-y;&amp;#13;
+  margin-bottom: $sp-logo-margin-y;&amp;#13;
+  display: block;&amp;#13;
+  max-height: $sp-logo-max-height;&amp;#13;
+  max-width: $sp-logo-max-width;&amp;#13;
+  position: relative;&amp;#13;
+  top: 50%;&amp;#13;
+  -webkit-transform: translateY(-50%);&amp;#13;
+  -ms-transform: translateY(-50%);&amp;#13;
+  transform: translateY(-50%);&amp;#13;
+}&amp;#13;
+.breadcrumb-container {&amp;#13;
+  background-color: $panel-bg;&amp;#13;
+}&amp;#13;
+&amp;#13;
+/* for mobile app */&amp;#13;
+.navbar-inverse.is-native {&amp;#13;
+  background-color: #405060;&amp;#13;
+}&amp;#13;
+&amp;#13;
+nav{&amp;#13;
+ margin-bottom: 0px;&amp;#13;
+ border-radius: 0px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.navbar-collapse{&amp;#13;
+padding-right: 0px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.navbar-nav {&amp;#13;
+margin: 0px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+// PRB711244: Dropdown menu is scrollable when too many items&amp;#13;
+.scrollable-dropdown {&amp;#13;
+  max-height: 80vh;&amp;#13;
+  overflow: auto;&amp;#13;
+  height: auto;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.is-native {&amp;#13;
+ .scrollable-dropdown {&amp;#13;
+  max-height: 100vh;&amp;#13;
+  overflow: scroll;&amp;#13;
+  height: auto;&amp;#13;
+	}&amp;#13;
+}&amp;#13;
+&amp;#13;
+&amp;#13;
+/* PRB923910: Fix for Service Portal - Header Poorly Aligned in Safari */&amp;#13;
+@media screen and (min-width: 768px) {&amp;#13;
+  .navbar-collapse {&amp;#13;
+    display: flex !important;&amp;#13;
+  }&amp;#13;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, element) {
+	$(document).keyup(function(event) {
+		if (event.which == 9) { //tab key handler + arrow keys
+			if ($(event.target).parents(".dropdown-menu").length == 0) { //if we are NOT inside a dropdown...
+				//close the dropdowns
+				$(".dropdown").removeClass("open");
+				$("[data-toggle='dropdown']").attr("aria-expanded", "false");
+			}
+		}
+	});
+	
+	$(element).on('click.nav','.navbar-collapse.in',function(e) {
+		var target = $(e.target);
+		if (target.is('a')) {
+			if (target.hasClass('sp-menu-has-items'))
+				return; // menu item has a submenu, so just toggle it
+			
+			// collapse mobile nav if clicked an anchor
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		if (target.parent().hasClass("toggle-dropdown")) {
+			// collapse mobile nav if parent has toggle-dropdown class
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		// if neither target nor parent is an anchor, do nothing
+		if (!target.parent().is('a'))
+			return;
+
+		// collapse mobile nav if target is part of a submenu
+		if (target.parents("ul.dropdown-menu").length &gt; 0)
+			$(this).removeClass('in').addClass('collapse');
+	});
+}]]&gt;&lt;/link&gt;&lt;name&gt;Stock Header w/ Google Translate&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[// Defines the support queue ID that will be linked to by the Live Chat link in header
+data.connect_support_queue_id = $sp.getValue('sp_chat_queue');
+data.login_page = $sp.getValue('login_page');
+data.profileBtnMsg = gs.getMessage("Press space to access user profile or logout");
+var menu = $sp.getValue("sp_rectangle_menu");
+data.menu = $sp.getWidgetFromInstance(menu);
+if (data.menu &amp;&amp; data.menu.data) {
+	data.menu.data.replace = true;
+	// Hide login if menu already has link to login
+	data.hasLogin = false;
+	if (data.menu.data.menu.items) {
+		for(var i in data.menu.data.menu.items) {
+			var item = data.menu.data.menu.items[i];
+			if (item.type == 'page' &amp;&amp; item.sp_page == data.login_page)
+				data.hasLogin = true;
+		}
+	}
+}
+
+data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mike.bahr&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-05-25 22:18:02&lt;/sys_created_on&gt;&lt;sys_id&gt;7a606e61db521300e0d5f6dfbf9619ce&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Stock Header w/ Google Translate&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_7a606e61db521300e0d5f6dfbf9619ce&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mike.bahr&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-05-25 22:20:03&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
+       role="navigation"&gt;
+    &lt;div ng-show="::!isViewNative" class="navbar-header"&gt;
+      &lt;a class="navbar-brand" ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"&gt;&lt;span&gt;{{::portal.title}}&lt;/span&gt;&lt;/a&gt;
+      &lt;a class="navbar-brand navbar-brand-logo" ng-if="::portal.logo" href="?id={{::portal.homepage_dv}}" aria-label="${Go to homepage}"&gt;
+        &lt;img ng-src="{{::portal.logo}}" title="ServiceNow" role="presentation" alt="${Portal Logo}" /&gt;
+      &lt;/a&gt;
+
+      &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sp-nav-bar"&gt;
+        &lt;span class="sr-only"&gt;${Toggle navigation}&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div sp-navbar-toggle="" class="collapse navbar-collapse navbar-right scrollable-dropdown" id="sp-nav-bar"&gt;
+      
+      &lt;!-- Google Translate Header Menus --&gt;
+      &lt;!--Simple Dropdown - Works well with Mobile--&gt;
+      &lt;ul class="nav navbar-nav"&gt;
+        &lt;div id="google_translate_element"&gt;&lt;/div&gt;
+        &lt;script type="text/javascript"&gt;
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en'
+                }, 'google_translate_element');
+            }
+        &lt;/script&gt;
+        &lt;script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"&gt;&lt;/script&gt;
+    &lt;/ul&gt;
+      
+      &lt;!-- Full Menu - Doesn't work well in Mobile--&gt;
+      &lt;!--
+            &lt;ul class="nav navbar-nav"&gt;
+              &lt;div id="google_translate_element"&gt;&lt;/div&gt;
+              &lt;script type="text/javascript"&gt;
+                  function googleTranslateElementInit() {
+                      new google.translate.TranslateElement({
+                          pageLanguage: 'en',
+                          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                      }, 'google_translate_element');
+                  }
+              &lt;/script&gt;
+              &lt;script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"&gt;&lt;/script&gt;
+          &lt;/ul&gt;
+      --&gt;
+
+      &lt;!-- Include The Menu --&gt;
+      &lt;sp-widget widget="::data.menu"&gt;&lt;/sp-widget&gt;
+      &lt;ul ng-if="::(!user.logged_in &amp;&amp; page.id != portal.login_page_dv &amp;&amp; !data.hasLogin)" class="nav navbar-nav"&gt;
+        &lt;li&gt;&lt;a href ng-click="::openLogin()"&gt;${Login}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul ng-if="::user.logged_in" class="nav navbar-nav" aria-haspopup="true"&gt;
+        &lt;!-- chat, avatar, and logout --&gt;
+        &lt;li ng-if="::data.connect_support_queue_id"&gt;&lt;a href ng-click="openPopUp()"&gt;${Live Chat}&lt;/a&gt;&lt;/li&gt;
+        &lt;li ng-if="showAvatar" class="hidden-xs dropdown"&gt;
+          &lt;a href class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="{{::data.profileBtnMsg}}" id="profile-dropdown" role="button" aria-haspopup="true"&gt;
+            &lt;span class="navbar-avatar" aria-hidden="true"&gt;&lt;sn-avatar class="avatar-small-medium" primary="avatarProfile" /&gt;&lt;/span&gt;
+            &lt;span class="visible-lg-inline"&gt;{{::user.name}}&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;ul class="dropdown-menu" role="menu"&gt;
+            &lt;li role="presentation"&gt;&lt;a ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}" role="menuitem"&gt;${Profile}&lt;/a&gt;&lt;/li&gt;
+            &lt;li ng-if="::!isViewNative" role="presentation"&gt;&lt;a href="{{::portal.logoutUrl}}" role="menuitem"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li ng-if="showXSAvatar" class="visible-xs-block"&gt;&lt;a ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}"&gt;
+          &lt;span class="navbar-avatar"&gt;&lt;sn-avatar class="avatar-small-medium" primary="avatarProfile" /&gt;&lt;/span&gt;{{::user.name}}&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li ng-if="::!isViewNative" class="visible-xs-block"&gt;&lt;a href="{{::portal.logoutUrl}}"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_header_footer&gt;&lt;/record_update&gt;</payload>
+<payload_hash>908430696</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>2584abd0dbc87300a383f34ebf961966</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1691be099f30000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>Stock Header w/ Google Translate</target_name>
+<type>Header | Footer</type>
+<update_domain>global</update_domain>
+<update_guid>14e02aa17f52130091067a11c43b9744</update_guid>
+<update_guid_history>14e02aa17f52130091067a11c43b9744:908430696,6480ae61cb52130015bbe8140c8211e7:-1957176324,3a606e611b521300e6e3198dd575d5d0:2139818202</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_1c8529ecdbd36300a383f34ebf9619f8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>Google Translate</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>snGoogleTranslate [ Google Translate ]</qualified_name><rest_endpoint>https://translate.googleapis.com/translate_a/single</rest_endpoint><rest_message display_value="snGoogleTranslate">2755a5e0db176300a383f34ebf961913</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-01-26 04:40:39</sys_created_on><sys_id>1c8529ecdbd36300a383f34ebf9619f8</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Google Translate</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_1c8529ecdbd36300a383f34ebf9619f8</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-02-25 04:07:13</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-1013190761</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>2584abd0dbc87300a383f34ebf961969</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694555763f0000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>Google Translate</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>b47dd654d70873009533fcd8c9f427a2</update_guid>
+<update_guid_history>b47dd654d70873009533fcd8c9f427a2:-1013190761,0f8dbb4e6c372300344b007f9d5aa60e:-1013190761,e476fdac33176300f1f31b28b333acf6:-790756371,108529ecafd363007e7ae5fa49c532fa:287933944</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_b4853bc6db372300a383f34ebf961957</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="snGoogleTranslate">06d878f5db332300a383f34ebf96198d</category><order>500</order><property display_value="google.translate.prevent.dupe.choices" name="google.translate.prevent.dupe.choices">87c43bc6db372300a383f34ebf96193d</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-02-25 03:32:07</sys_created_on><sys_id>b4853bc6db372300a383f34ebf961957</sys_id><sys_mod_count>1</sys_mod_count><sys_name>google.translate.prevent.dupe.choices.Google Translate</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_b4853bc6db372300a383f34ebf961957</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-02-25 03:32:19</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-1525285524</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>2984abd0dbc87300a383f34ebf961968</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16946703e660000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>google.translate.prevent.dupe.choices.Google Translate</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>a52467d03fc873008a6059d5b5c0b309</update_guid>
+<update_guid_history>a52467d03fc873008a6059d5b5c0b309:-1525285524,8095b30a6937230029cd1c8f252b7f9a:1203083979,7485730a0337230085d8853cd82ba66f:-742316345</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_e91b09b9db732300a383f34ebf961919</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.snGoogleTranslate&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;snGoogleTranslate&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var snGoogleTranslate = Class.create();
+snGoogleTranslate.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+	
+	ui16: function () {
+		var ui16Property = gs.getProperty("google.translate.ui16");
+		return ui16Property;
+	},
+	
+	rest: function (source, target, text) {
+		var r = new sn_ws.RESTMessageV2('snGoogleTranslate', 'Google Translate');
+		
+		r.setStringParameter("client", "gtx");
+		r.setStringParameter("sl", source);
+		r.setStringParameter("tl", target);
+		r.setStringParameter("dt", "t");
+		r.setStringParameter("q", text);
+		
+		var response = r.execute();
+		var responseBody = response.getBody();
+		
+		//Parse results and print to screen
+		var results = responseBody.split(",");
+		var sourceText = results[1];
+		var translatedText = results[0].replace("[[[", "");
+		
+		var cleanTranslatedText = translatedText.replace(/['"]+/g, '');
+		return cleanTranslatedText;
+	},
+	
+	connectSourceLanguage: function () {
+		
+		var source = current.profile.document;
+		var sourceLanguage = new GlideRecord('sys_user');
+		sourceLanguage.get('sys_id', source);
+		
+		return sourceLanguage.preferred_language || 'en';
+	},
+	
+	connectTargetLanguages: function () {
+		
+		var targetLanguagesArray = [];
+		
+		var targetMember = new GlideRecord('live_group_member');
+        targetMember.addQuery('group', current.group);
+        targetMember.addQuery('member.document', '!=', current.profile.document);
+        targetMember.query();
+
+        while (targetMember.next()) {
+            var targetLanguage = new GlideRecord('sys_user');
+            targetLanguage.get('sys_id', targetMember.member.document);
+
+            targetLanguagesArray.push(targetLanguage.preferred_language);
+            
+        }
+		
+		return targetLanguagesArray;
+		
+	},
+	
+	importDictionary: function (table, source, target) {
+		
+		var tableToTranslate = table; //TABLE
+		var sourceLanguage = source; //SOURCE LANGUAGE
+		var targetLanguage = target; //TARGET LANGUAGE
+		
+		var fields = new GlideRecord("sys_documentation");
+		fields.addQuery("name", tableToTranslate);
+		fields.query();
+		
+		while (fields.next()) {
+			
+			var translatedRecord = new GlideRecord('sys_documentation');
+			translatedRecord.newRecord();
+			translatedRecord.name = fields.name;
+			translatedRecord.label = new snGoogleTranslate().rest(sourceLanguage, targetLanguage, fields.label);
+			translatedRecord.plural = new snGoogleTranslate().rest(sourceLanguage, targetLanguage, fields.plural);
+			translatedRecord.element = fields.element;
+			translatedRecord.language = targetLanguage;
+			translatedRecord.url = fields.url;
+			translatedRecord.url_target = fields.url_target;
+			
+			if (fields.hint != '') {
+				translatedRecord.hint = new snGoogleTranslate().rest(sourceLanguage, targetLanguage, fields.hint);
+			}
+			if (fields.help != '') {
+				translatedRecord.help = new snGoogleTranslate().rest(sourceLanguage, targetLanguage, fields.help);
+			}
+			translatedRecord.insert();
+		}
+		
+		gs.flushMessages();
+	},
+	
+	importChoices: function (table, choiceList, source, target) {
+		
+		var tableToTranslate = table; //TABLE
+		var choiceListToTranslate = choiceList; //DICTIONARY
+		
+		var sourceLanguage = source; //SOURCE LANGUAGE
+		var targetLanguage = target; //TARGET LANGUAGE
+		
+		var choice = new GlideRecord("sys_choice");
+		choice.addQuery("name", tableToTranslate);
+		choice.addQuery('element', choiceListToTranslate);
+		choice.addQuery('language', sourceLanguage);
+		choice.query();
+		
+		while (choice.next()) {
+			
+			var translatedChoice = new GlideRecord('sys_choice');
+			translatedChoice.newRecord();
+			translatedChoice.name = choice.name;
+			translatedChoice.label = new snGoogleTranslate().rest(sourceLanguage, targetLanguage, choice.label);
+			translatedChoice.value = choice.value;
+			translatedChoice.element = choice.element;
+			translatedChoice.language = targetLanguage;
+			translatedChoice.sequence = choice.sequence;
+			translatedChoice.inactive = choice.inactive;
+			
+			if (choice.hint != '') {
+				translatedChoice.hint = new snGoogleTranslate().rest(sourceLanguage, targetLanguage, choice.hint);
+			}
+			translatedChoice.insert();
+		}
+		gs.flushMessages();
+	},
+	
+	type: 'snGoogleTranslate'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mike.bahr&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-23 20:31:33&lt;/sys_created_on&gt;&lt;sys_id&gt;e91b09b9db732300a383f34ebf961919&lt;/sys_id&gt;&lt;sys_mod_count&gt;19&lt;/sys_mod_count&gt;&lt;sys_name&gt;snGoogleTranslate&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_e91b09b9db732300a383f34ebf961919&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mike.bahr&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-03 18:35:54&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1514767766</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>2984abd0dbc87300a383f34ebf96196b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169454806950000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>snGoogleTranslate</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>4e1a52909f0873009e5715cc7a8498de</update_guid>
+<update_guid_history>4e1a52909f0873009e5715cc7a8498de:-1514767766,aaed399c26847300abed183cbc719789:-1514767766,b94bb59870847300290e83a6618f3549:-1248725959,e03679d49984730093a25d9b6da1d58f:670609039,026d69509b847300d93c0984a591a5ba:-1506307040,519c2190c3847300df6b6f208f2e6c08:-852896874,a7eb695006847300d0fc80b203b9d5b4:-1074973096,fd74885ecb372300b1af0735271c7616:-1491958849,9f24c452d3772300f9860abb76159d5f:359711522,ebb3805219772300bc82c3b8372b3bf3:-1491958849,0bb24812c57723002ddd98c996e5a30a:-1194925513,b29dbb4ebb3723002dda6255597299a4:-1065838325,914db74e57372300d3cd045ee623b48f:77975108,0c2db30e4b372300431c041a840f2546:-1285975149,d4c0824665ff2300d38771455717dcbc:-988072281,ab204a0694ff2300a4f0cfcf2c2da308:-1894194617,469f7dc206ff2300aede8dc15eccc9ad:1916247258,582fb14291ff2300ab700601cc9016da:177845787,377a790264ff23001e9ba8204cc40eba:-2027513634,303af9025bff2300e955b391f18e5c9d:81517334,52ab4db966732300b24b873bf402af7d:72521671</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_b5a08571db732300a383f34ebf9619c7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Enable Google Translate in the UI16 header.  &lt;a href="#" onclick="window.top.location.reload()"&gt;Click here to refresh when disabling&lt;/a&gt;</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>google.translate.ui16</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-02-23 19:44:06</sys_created_on><sys_id>b5a08571db732300a383f34ebf9619c7</sys_id><sys_mod_count>32</sys_mod_count><sys_name>google.translate.ui16</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_b5a08571db732300a383f34ebf9619c7</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-02-23 21:19:03</sys_updated_on><type>boolean</type><value>false</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=b5a08571db732300a383f34ebf9619c7"/></record_update>]]></payload>
+<payload_hash>-964630493</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>2d84abd0dbc87300a383f34ebf961967</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694549a6fe0000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>google.translate.ui16</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>cc8ad690e0087300f7bebdc3eda1a7dc</update_guid>
+<update_guid_history>cc8ad690e0087300f7bebdc3eda1a7dc:-964630493,ae8611714e37230007475f0300771956:-964630493,9d769d3153372300d59f84a6b86fc6bd:-1056358804,125659bdfcf3230093ce01b1a2baa276:-964630493,ed3619bd94f323009f876a4b5a27ea74:-903066692,4726d5bd8bf32300a58033777b135537:1023837107,111691bd20f3230082e221bb0cd6e665:-903066692,07c515755af32300d5b5097896a477e3:303369353,0b7455b98ff323006281a9fc97639eb8:-1691507790,2474913938f3230000f203c03dc467cd:-1356901123,2944513932f323005708152abe2988da:-1691507790,ce34ddf540f32300805d02488c8eeea2:-1356901123,c093d175d2f32300e322a38827d8dfe7:-1691507790,7083dd351ef3230010c470b578ee6e99:-1356901123,0a92dd7176f323009758c7ea3ed6cada:-1691507790,cb725d71c7f32300491d431989384beb:-1356901123,ad3211bd90b32300b761c2e131bbcee9:-1691507790,34e111bd9fb32300261459108100318a:-1356901123,add1dd7ddfb323005df070cef7a7592c:-1691507790,65d01db9d8b32300db99af0a664f8169:-1356901123,3960d5b94fb32300c006d665624fab57:-1691507790,fc5055b94cb323007cfec59b35f598c1:-1356901123,fedf017936b3230041ab3498d41a9471:-1691507790,bfcfcd39fbb323006cfa19f53e5f231b:-1356901123,751f45f505b32300599f7b3c348130f7:-1691507790,de0f05f5f1b32300552745e9d98b31bc:-1356901123,e7ae0db56db32300cadbee071c6a9b31:-1691507790,f51ec575a7b3230001a5113694adcb9c:-1356901123,e2fd8175c0b32300e40e0d295950c50f:-1691507790,0add0d35f7b323001a4cd851b7023f80:-1356901123,b94dc57134b323008f9ddb580802b31a:-1691507790,edcc85bdf673230006b93fd172cd3274:-1356901123,8f7c49f9fd732300f469ea8d01adfdc6:-1691507790,77c00971e2732300a826299cbb9a9778:-1356901123</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_param_defs_dd7675e0db176300a383f34ebf96194b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>client</name><order>100</order><rest_message_function display_value="Google Translate">1c8529ecdbd36300a383f34ebf9619f8</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-01-26 05:55:22</sys_created_on><sys_id>dd7675e0db176300a383f34ebf96194b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>client</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_dd7675e0db176300a383f34ebf96194b</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-01-26 05:55:22</sys_updated_on><value>gtx</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+<payload_hash>-801471607</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>2d84abd0dbc87300a383f34ebf96196a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694556f62b0000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>client</target_name>
+<type>HTTP Query Parameters</type>
+<update_domain>global</update_domain>
+<update_guid>30dd1e541b087300eefe8b505faeb4a2</update_guid>
+<update_guid_history>30dd1e541b087300eefe8b505faeb4a2:-801471607,7696f1eccd176300130e6006af863631:-1523219409</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_2755a5e0db176300a383f34ebf961913</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>snGoogleTranslate</name><oauth2_profile/><protocol_name/><rest_endpoint>https://translate.googleapis.com/translate_a/single</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-01-26 04:40:39</sys_created_on><sys_id>2755a5e0db176300a383f34ebf961913</sys_id><sys_mod_count>2</sys_mod_count><sys_name>snGoogleTranslate</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_2755a5e0db176300a383f34ebf961913</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-02-25 04:06:24</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>77937299</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>6184abd0dbc87300a383f34ebf961969</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694555272a0000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>snGoogleTranslate</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>4c6d96548e0873002a4387bd1f2588f1</update_guid>
+<update_guid_history>4c6d96548e0873002a4387bd1f2588f1:77937299,0b5df74e3237230064c5c7a2d85610c5:77937299,7a46b5a0ca17630078d8935c20823873:-1527142825,9c8569e029176300979b6482262c1441:846665150</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_768ada4edb332300a383f34ebf961962</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="snGoogleTranslate">06d878f5db332300a383f34ebf96198d</category><order>300</order><property display_value="google.translate.import.dictionary" name="google.translate.import.dictionary">2a3a964edb332300a383f34ebf96190c</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-02-24 20:54:40</sys_created_on><sys_id>768ada4edb332300a383f34ebf961962</sys_id><sys_mod_count>1</sys_mod_count><sys_name>google.translate.import.dictionary.Google Translate</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_768ada4edb332300a383f34ebf961962</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-02-24 20:55:18</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-1193531458</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>6584abd0dbc87300a383f34ebf961968</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16946703e020000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>google.translate.import.dictionary.Google Translate</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>d52467d00dc87300f3d96258124f8604</update_guid>
+<update_guid_history>d52467d00dc87300f3d96258124f8604:-1193531458,d8ba5e4ec3332300ad4fcab0bf9695d7:-1814613121,478ada4e82332300ddedb70cc528eb64:1671501761</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_fix_bfa5e20adb732300a383f34ebf96197e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;flush_cache&gt;false&lt;/flush_cache&gt;&lt;name&gt;snGoogleTranslate Import Script&lt;/name&gt;&lt;record_for_rollback&gt;false&lt;/record_for_rollback&gt;&lt;run_once&gt;true&lt;/run_once&gt;&lt;script&gt;&lt;![CDATA[//Variables
+var table = ''; //Table
+var source = ''; //Source Language
+var target = ''; //Target Language
+
+//Used for translating choice lists
+var choiceList = ''; //Dictionary / Choice List to translate
+
+
+//Import Dictionary Translations
+if (gs.getProperty('google.translate.import.dictionary') == 'true') {
+	new snGoogleTranslate().importDictionary(table, source, target);
+}
+else{
+	gs.print("google.translate.import.dictionary property is not enabled.");
+}
+
+
+//Import Choice Translations
+if (gs.getProperty('google.translate.import.choices') == 'true' &amp;&amp; gs.getProperty('google.translate.prevent.dupe.choices') == 'true') {
+	new snGoogleTranslate().importChoices(table, choiceList, source, target);
+}
+else{
+	gs.print('google.translate.import.choices AND google.translate.prevent.dupe.choices is not enabled.');
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mike.bahr&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-24 21:45:14&lt;/sys_created_on&gt;&lt;sys_id&gt;bfa5e20adb732300a383f34ebf96197e&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;snGoogleTranslate Import Script&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_bfa5e20adb732300a383f34ebf96197e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mike.bahr&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-03 21:36:09&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1895740279</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>6584abd0dbc87300a383f34ebf96196b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169457c51560000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>snGoogleTranslate Import Script</target_name>
+<type>Fix Script</type>
+<update_domain>global</update_domain>
+<update_guid>e627a25c27087300e7780ef9d9ca0874</update_guid>
+<update_guid_history>e627a25c27087300e7780ef9d9ca0874:1895740279,fdb5621c40087300cf34fa29a972be73:1087713403,f8d32294a108730078ef3b9cd341fdd8:1895740279,a4836a18820873006f76252fd060f30e:-1209515617,c2622ed412087300e69f5bfce2e420b7:291967520,04622a544d087300d86b640eb9227641:-813631660,0d9e5a5472087300dc849b72b5245aa5:-621511905,7b39ea4ad1732300aafa1b4261c585de:712893233,7be8e64ad7732300dbbc4c8cedd8f4c3:1479886633,ed18ea4a30732300ba95782d0b2bacb0:-283620841,8ae7aa4aa073230013e1a960f5789f01:2003940708,6027aa0a09732300b8a4a34e9b887bed:-1605841595,3b16e60a22732300b334563dc01bd1bd:-1899604430</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_87c43bc6db372300a383f34ebf96193d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Enable this property to prevent duplicate choices on import.  &#13;
+&lt;br&gt;&#13;
+&lt;b style="color:red"&gt;This activates a business rule on the sys_choice table to prevent duplicates based on table, element, value, language.&lt;/b&gt;</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>google.translate.prevent.dupe.choices</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-02-25 03:31:34</sys_created_on><sys_id>87c43bc6db372300a383f34ebf96193d</sys_id><sys_mod_count>5</sys_mod_count><sys_name>google.translate.prevent.dupe.choices</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_87c43bc6db372300a383f34ebf96193d</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-03-03 20:23:45</sys_updated_on><type>boolean</type><value>false</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=87c43bc6db372300a383f34ebf96193d"/></record_update>]]></payload>
+<payload_hash>-1750937040</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>6984abd0dbc87300a383f34ebf961967</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694549a6210000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>google.translate.prevent.dupe.choices</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>f77ad69073087300862e1db46c9f78d3</update_guid>
+<update_guid_history>f77ad69073087300862e1db46c9f78d3:-1750937040,6e96de9cb4c473009b515378c8bb4ed8:-1750937040,18a25e1c2dc47300ae4e193fee516809:-1591154904,fa921e1c73c47300cdafe737e8bdac7f:1985156613,2f5bb30e2a372300dfbde80a4ac9594b:-1215116601,aa06bfc689372300b57c236f3c15714c:1640016135,51657fc60d37230056e3e17f6760c0ed:-1215116601</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_param_defs_9239f120db576300a383f34ebf9619ed</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>dt</name><order>400</order><rest_message_function display_value="Google Translate">1c8529ecdbd36300a383f34ebf9619f8</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-01-26 06:07:32</sys_created_on><sys_id>9239f120db576300a383f34ebf9619ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>dt</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_9239f120db576300a383f34ebf9619ed</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-01-26 06:07:32</sys_updated_on><value>t</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+<payload_hash>-304494311</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>6984abd0dbc87300a383f34ebf96196a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694556f6c90000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>dt</target_name>
+<type>HTTP Query Parameters</type>
+<update_domain>global</update_domain>
+<update_guid>09dd1e54820873001214f2fb595a36a9</update_guid>
+<update_guid_history>09dd1e54820873001214f2fb595a36a9:-304494311,7c69356050576300e0ab69d9b700b13c:638308291</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_037e49b5dbb32300a383f34ebf96198a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="snGoogleTranslate">715ec975dbb32300a383f34ebf9619eb</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Properties</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>100</order><override_menu_roles>false</override_menu_roles><query>system_properties_ui.do?sysparm_category=snGoogleTranslate&amp;sysparm_title=snGoogleTranslate</query><report/><roles>admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-02-23 20:44:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>037e49b5dbb32300a383f34ebf96198a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Properties</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_037e49b5dbb32300a383f34ebf96198a</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-03-03 20:00:38</sys_updated_on><timeline_page/><title>Properties</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-759796043</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>6d84abd0dbc87300a383f34ebf961966</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694546e1360000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>Properties</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>efc91e505f08730025057a1f701157e6</update_guid>
+<update_guid_history>efc91e505f08730025057a1f701157e6:-759796043,3f4196d8acc47300cfb64c929e85f141:-759796043,c3d05ad851c47300d8b8b315879b840c:558343562,08aec9b518b32300ef02c92a05bd6a1b:771349432</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_d4b3f8fcdb97a300a383f34ebf9619a6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>sl</name><rest_message_function display_value="Google Translate">1c8529ecdbd36300a383f34ebf9619f8</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-01-26 19:41:31</sys_created_on><sys_id>d4b3f8fcdb97a300a383f34ebf9619a6</sys_id><sys_mod_count>4</sys_mod_count><sys_name>sl</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_parameters_d4b3f8fcdb97a300a383f34ebf9619a6</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-01-27 03:42:24</sys_updated_on><type>string</type><value>en</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-310919539</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>6d84abd0dbc87300a383f34ebf961969</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694555f1e90000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>sl</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>249dd25473087300c56e64690d503d26</update_guid>
+<update_guid_history>249dd25473087300c56e64690d503d26:-310919539,6cc1ae784ad7e30062dd407d4fbfdd7d:-572798113,5fa16a78c6d7e300a7308e957083d533:-1749058507,b951e6b87ed7e300d0b8ce3f4b8681a7:-1635959046,3621aaf4bad7e3001d318e572543a2e5:-572798113,90b3f8fca597a30054d9caacba52e4a7:-1749058507</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_08f8fc75db332300a383f34ebf961973</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="snGoogleTranslate">06d878f5db332300a383f34ebf96198d</category><order>200</order><property display_value="google.translate.connect" name="google.translate.connect">5a0d5470db1f6300a383f34ebf9619e6</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-02-23 19:09:44</sys_created_on><sys_id>08f8fc75db332300a383f34ebf961973</sys_id><sys_mod_count>1</sys_mod_count><sys_name>google.translate.connect.Google Translate</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_08f8fc75db332300a383f34ebf961973</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-02-23 19:44:54</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>614811910</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>a184abd0dbc87300a383f34ebf961968</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16946703dc70000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>google.translate.connect.Google Translate</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>5d2467d09ac873002167dbac7379c001</update_guid>
+<update_guid_history>5d2467d09ac873002167dbac7379c001:614811910,dbf00d71d1732300499170c9f80a74da:-1985827705,00f8fc75e83323004004fbff71c76175:872070504</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_8f953190db847300a383f34ebf96190c</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;live_message&lt;/collection&gt;&lt;condition&gt;gs.getProperty('google.translate.connect') == 'true'&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="live_message"&gt;messageNOT LIKETranslation:^EQ&lt;item endquery="false" field="message" goto="false" newquery="false" operator="NOT LIKE" or="false" value="Translation:"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;snGoogleTranslate Connect&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;0&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	
+	var source = new snGoogleTranslate().connectSourceLanguage();
+	var targetArray = new snGoogleTranslate().connectTargetLanguages();
+	var text = current.message.toString();
+	var output = "";
+	
+	var id = current.group;
+	var isWorkNotes = current.reflected_field;
+	if(isWorkNotes == 'work_notes'){
+		isWorkNotes = true;
+	}
+	else{
+		isWorkNotes = false;
+	}
+	
+	for(i=0; i &lt; targetArray.length; i++)
+		{
+		if(source != targetArray[i] &amp;&amp; targetArray[i] != "")
+			{
+			output += "Translation: " + "(" + targetArray[i] + ") - " + new snGoogleTranslate().rest(source,targetArray[i],text) + "\n";
+		}
+	}
+	
+	new SNC.LiveFeedApi().addMessage(output, id, "", isWorkNotes);
+	
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mike.bahr&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-03-03 17:59:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8f953190db847300a383f34ebf96190c&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;snGoogleTranslate Connect&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_8f953190db847300a383f34ebf96190c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mike.bahr&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-03 20:46:55&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8f953190db847300a383f34ebf96190c"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1703191232</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>a184abd0dbc87300a383f34ebf96196b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169454f3fe10000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table>live_message</table>
+<target_name>snGoogleTranslate Connect</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>2deb1e90d5087300c01d1f29e6b1d45e</update_guid>
+<update_guid_history>2deb1e90d5087300c01d1f29e6b1d45e:1703191232,a3d21ed810c47300a7a3cdb0e21e7618:1389011664,636a8e94ebc4730092086eb40d500ac6:-1119187249,2d2aca94fcc4730046674f74bee86adc:1159640303,f91a8294c8c4730063a8cbc4fa7031e5:-1380142765,32d9829473c4730066b39ce24a2504ce:3202620,e369c2943fc473002a6a2abf97440fc9:940060058,3839029459c47300f61185badd3e2f70:1617339470,04290e5439c47300291d4dfafa9ee224:940060058,5ae84e54f5c473009773bead019e80b8:1216672769,15470e14d1c47300fc0fc463b4fff676:2105355592,b027c6142dc47300dbc6607c92af9add:-1077372300,7bb64214afc473002d7ef1e5b187738e:8419726,b7a6c214b6c47300b689f7b4d0901fe3:824768710,eb76c2143bc4730018c9bae8c42fcddd:1452458179,f0468ad039c4730033de400b6b0621fe:-513538309,63954ad075c47300833111b903825c79:2103398394,f0750a5046c473008a87b5f0189f008d:16577670,574dbd5cfe84730086fb4fd4c37d90a6:1867259770,d6eb7d1c73847300e66fab988c2a4618:-66842629,9dea3598e1847300cd8bc45dcd875239:-1289540251,2bca3958b4847300f1dab41f7f708756:2061080502,957ab1d406847300e67625c9d39ad0b2:-2047786419,f9c57d945c847300ded4743f3a4420a4:-419668838,0f9531903c8473003c1c9eda3bd4670f:-1460694144</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_7345d69cdbc47300a383f34ebf96199d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Enable this property and run &lt;a href="/sys_script_fix.do?sys_id=bfa5e20adb732300a383f34ebf96197e" target="_blank"&gt;snGoogleTranslate Import Script&lt;/a&gt;
+&lt;br&gt;
+&lt;b style="color:red"&gt;Run in non prod.  Export/import the XMLs after validation.&lt;/b&gt;</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>google.translate.import.choices</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-03-03 20:18:34</sys_created_on><sys_id>7345d69cdbc47300a383f34ebf96199d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>google.translate.import.choices</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_7345d69cdbc47300a383f34ebf96199d</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-03-03 20:19:18</sys_updated_on><type>boolean</type><value>false</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=7345d69cdbc47300a383f34ebf96199d"/></record_update>]]></payload>
+<payload_hash>1970998903</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>a584abd0dbc87300a383f34ebf961967</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694549a65a0000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>google.translate.import.choices</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>7f7ad690a4087300951f87527c664cd5</update_guid>
+<update_guid_history>7f7ad690a4087300951f87527c664cd5:1970998903,99951e9c50c47300cbc8a8e885f9de09:1970998903,f6651a9ca8c47300fd28d12cfeb083a2:-855680420</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_param_defs_67293d20db576300a383f34ebf9619a2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>tl</name><order>300</order><rest_message_function display_value="Google Translate">1c8529ecdbd36300a383f34ebf9619f8</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-01-26 06:07:32</sys_created_on><sys_id>67293d20db576300a383f34ebf9619a2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>tl</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_67293d20db576300a383f34ebf9619a2</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-01-26 19:41:24</sys_updated_on><value>${tl}</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+<payload_hash>-1078311954</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>a584abd0dbc87300a383f34ebf96196a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694556f6940000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>tl</target_name>
+<type>HTTP Query Parameters</type>
+<update_domain>global</update_domain>
+<update_guid>01dd1e54bc0873007a53271964dffda7</update_guid>
+<update_guid_history>01dd1e54bc0873007a53271964dffda7:-1078311954,3ea3b8f06b97a300cf5671c47d9bdea4:1757400010,746935601257630066e9cd47c8f30f3b:944436568</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_715ec975dbb32300a383f34ebf9619eb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles>admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-02-23 20:43:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>715ec975dbb32300a383f34ebf9619eb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>snGoogleTranslate</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_715ec975dbb32300a383f34ebf9619eb</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-03-03 19:57:27</sys_updated_on><title>snGoogleTranslate</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>532053529</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>a984abd0dbc87300a383f34ebf961966</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694545c66f0000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>snGoogleTranslate</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>0a89525082087300634e3cbd2d49fc05</update_guid>
+<update_guid_history>0a89525082087300634e3cbd2d49fc05:532053529,899012987ac47300fe51869c8ec423c7:532053529,276e49750bb323007e4e382415fecb67:1947049431</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_90b3f8fcdb97a300a383f34ebf9619a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>tl</name><rest_message_function display_value="Google Translate">1c8529ecdbd36300a383f34ebf9619f8</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-01-26 19:41:31</sys_created_on><sys_id>90b3f8fcdb97a300a383f34ebf9619a5</sys_id><sys_mod_count>3</sys_mod_count><sys_name>tl</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_parameters_90b3f8fcdb97a300a383f34ebf9619a5</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-01-27 03:41:59</sys_updated_on><type>string</type><value>es</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>-1106375318</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>a984abd0dbc87300a383f34ebf961969</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694555f1b90000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>tl</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>2c9dd2542d0873009f7ad7e1f6a30e23</update_guid>
+<update_guid_history>2c9dd2542d0873009f7ad7e1f6a30e23:-1106375318,aaa12afca3d7e3002520b30230aa114a:1197614170,2e512a3830d7e3000b212d87d592f9ab:-2034192193,2721aaf4a5d7e3008b287fa27c14911e:1197614170,5cb3f8fc8b97a300ef515ae095e295a5:-2036266283</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_d7e04d31db732300a383f34ebf9619d3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="snGoogleTranslate">06d878f5db332300a383f34ebf96198d</category><order>100</order><property display_value="google.translate.ui16" name="google.translate.ui16">b5a08571db732300a383f34ebf9619c7</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-02-23 19:44:38</sys_created_on><sys_id>d7e04d31db732300a383f34ebf9619d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>google.translate.ui16.Google Translate</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_d7e04d31db732300a383f34ebf9619d3</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-02-23 19:44:38</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-1829593139</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>ad84abd0dbc87300a383f34ebf961968</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16946703d300000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>google.translate.ui16.Google Translate</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>11246b1cbf48730024d3cb64da96514c</update_guid>
+<update_guid_history>11246b1cbf48730024d3cb64da96514c:-1829593139,dfe04d316b73230009f8675c5a7177d4:-1595140308</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_5a0d5470db1f6300a383f34ebf9619e6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Enable Google Translate in Connect</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>google.translate.connect</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-01-26 18:03:17</sys_created_on><sys_id>5a0d5470db1f6300a383f34ebf9619e6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>google.translate.connect</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_5a0d5470db1f6300a383f34ebf9619e6</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-02-25 03:00:38</sys_updated_on><type>boolean</type><value>false</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=5a0d5470db1f6300a383f34ebf9619e6"/></record_update>]]></payload>
+<payload_hash>590465579</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>e184abd0dbc87300a383f34ebf961967</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694549a6cc0000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>google.translate.connect</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>488ad69062087300a6c7e15064bc97da</update_guid>
+<update_guid_history>488ad69062087300a6c7e15064bc97da:590465579,734eab8293372300758464ac5e188303:590465579,8a3dd470301f630037dbf8f42420c8d2:1764752228</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_param_defs_3849fd20db576300a383f34ebf9619c5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>q</name><order>500</order><rest_message_function display_value="Google Translate">1c8529ecdbd36300a383f34ebf9619f8</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-01-26 06:07:32</sys_created_on><sys_id>3849fd20db576300a383f34ebf9619c5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>q</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_3849fd20db576300a383f34ebf9619c5</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-01-26 19:41:24</sys_updated_on><value>${q}</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+<payload_hash>146108927</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>e184abd0dbc87300a383f34ebf96196a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694556f6f60000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>q</target_name>
+<type>HTTP Query Parameters</type>
+<update_domain>global</update_domain>
+<update_guid>01dd1e54da0873002c2fa427f72fb3ac</update_guid>
+<update_guid_history>01dd1e54da0873002c2fa427f72fb3ac:146108927,3aa3b8f07797a3006429178a91001ca6:637666593,74693560f75763002987f0aa9257893e:1667501526</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_rel_widget_clone_7660e2a1db521300e0d5f6dfbf9619d8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone"><sp_rel_widget_clone action="INSERT_OR_UPDATE"><child display_value="Copy of Stock Header">7a606e61db521300e0d5f6dfbf9619ce</child><cloned>2018-05-25 22:18:02</cloned><last_validated>2018-05-25 22:18:02</last_validated><parent display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</parent><payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function ($rootScope, $scope, snRecordWatcher, spUtil, $location, $uibModal, cabrillo, $timeout, $window) {
+
+	$scope.avatarProfile = {
+		userID: $scope.user.sys_id,
+		name: $scope.user.name,
+		initials: $window.NOW.user_initials
+	};
+	
+	if ($window.NOW.user_avatar) {
+		$scope.avatarProfile.userImage = $window.NOW.user_avatar;
+	}
+
+	if (cabrillo.isNative())
+		$scope.isViewNative = true;
+
+	$scope.openPopUp = function() {
+		var url = "$chat_support.do?queueID=" + $scope.data.connect_support_queue_id;
+		var popup = window.open (url, "popup", "width=900, height=600");
+	};
+
+	$scope.openLogin = function () {
+		$scope.modalInstance = $uibModal.open({
+			templateUrl: 'modalLogin',
+			scope: $scope
+		});
+	};
+
+	var xsScreenSize = isXSScreenSize();
+	$scope.showXSAvatar = isXSScreenSize();
+	$scope.showAvatar = !isXSScreenSize();
+	
+	angular.element($window).on('resize', function () {
+		if(xsScreenSize !== isXSScreenSize() &amp;&amp; (!$scope.showXSAvatar || !$scope.showAvatar)){
+			$scope.showXSAvatar = true;
+			$scope.showAvatar = true;
+		}	   
+	});
+	
+	
+	function isXSScreenSize() {
+		return $window.matchMedia('(max-width: 767px)').matches;
+	}
+	
+	$rootScope.$on('sp.avatar_changed', function() {
+		$scope.userID = "";
+		$timeout(function(){
+			$scope.userID = $scope.user.sys_id;
+		});
+	});
+
+	$scope.isHomepage = function() {
+		if (!$scope.page.id)
+			return true;
+
+		if ($scope.page.id == $scope.portal.homepage_dv)
+			return true;
+
+		return false;
+	};
+}
+		]]&gt;&lt;/client_script&gt;&lt;controller_as/&gt;&lt;css&gt;.navbar {
+  transition: 250ms opacity ease-in-out;
+  -webkit-transition: 250ms opacity ease-in-out;
+  border: 0;
+  border-bottom: 4px solid $sp-navbar-divider-color;
+}
+
+.navbar-fade {
+  opacity: 0.4;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+header[role="banner"],
+.nav &amp;gt; li &amp;gt; a {
+  max-height: 60px;
+}
+
+@media screen and (max-width: 768px){
+  .nav &amp;gt; li &amp;gt; a {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+.navbar-brand {
+  max-height: 60px;
+  padding: 0;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand img, .navbar-brand span {
+  margin-left: $sp-logo-margin-x;
+  margin-right: $sp-logo-margin-x;
+  margin-top: $sp-logo-margin-y;
+  margin-bottom: $sp-logo-margin-y;
+  display: block;
+  max-height: $sp-logo-max-height;
+  max-width: $sp-logo-max-width;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.breadcrumb-container {
+  background-color: $panel-bg;
+}
+
+/* for mobile app */
+.navbar-inverse.is-native {
+  background-color: #405060;
+}
+
+nav{
+ margin-bottom: 0px;
+ border-radius: 0px;
+}
+
+.navbar-collapse{
+padding-right: 0px;
+}
+
+.navbar-nav {
+margin: 0px;
+}
+
+// PRB711244: Dropdown menu is scrollable when too many items
+.scrollable-dropdown {
+  max-height: 80vh;
+  overflow: auto;
+  height: auto;
+}
+
+.is-native {
+ .scrollable-dropdown {
+  max-height: 100vh;
+  overflow: scroll;
+  height: auto;
+	}
+}
+
+
+/* PRB923910: Fix for Service Portal - Header Poorly Aligned in Safari */
+@media screen and (min-width: 768px) {
+  .navbar-collapse {
+    display: flex !important;
+  }
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function(scope, element) {
+	$(document).keyup(function(event) {
+		if (event.which == 9) { //tab key handler + arrow keys
+			if ($(event.target).parents(".dropdown-menu").length == 0) { //if we are NOT inside a dropdown...
+				//close the dropdowns
+				$(".dropdown").removeClass("open");
+				$("[data-toggle='dropdown']").attr("aria-expanded", "false");
+			}
+		}
+	});
+	
+	$(element).on('click.nav','.navbar-collapse.in',function(e) {
+		var target = $(e.target);
+		if (target.is('a')) {
+			if (target.hasClass('sp-menu-has-items'))
+				return; // menu item has a submenu, so just toggle it
+			
+			// collapse mobile nav if clicked an anchor
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		if (target.parent().hasClass("toggle-dropdown")) {
+			// collapse mobile nav if parent has toggle-dropdown class
+			$(this).removeClass('in').addClass('collapse');
+			return;
+		}
+
+		// if neither target nor parent is an anchor, do nothing
+		if (!target.parent().is('a'))
+			return;
+
+		// collapse mobile nav if target is part of a submenu
+		if (target.parents("ul.dropdown-menu").length &gt; 0)
+			$(this).removeClass('in').addClass('collapse');
+	});
+}]]&gt;&lt;/link&gt;&lt;name&gt;Stock Header&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[// Defines the support queue ID that will be linked to by the Live Chat link in header
+data.connect_support_queue_id = $sp.getValue('sp_chat_queue');
+data.login_page = $sp.getValue('login_page');
+data.profileBtnMsg = gs.getMessage("Press space to access user profile or logout");
+var menu = $sp.getValue("sp_rectangle_menu");
+data.menu = $sp.getWidgetFromInstance(menu);
+if (data.menu &amp;&amp; data.menu.data) {
+	data.menu.data.replace = true;
+	// Hide login if menu already has link to login
+	data.hasLogin = false;
+	if (data.menu.data.menu.items) {
+		for(var i in data.menu.data.menu.items) {
+			var item = data.menu.data.menu.items[i];
+			if (item.type == 'page' &amp;&amp; item.sp_page == data.login_page)
+				data.hasLogin = true;
+		}
+	}
+}
+
+data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-16 23:21:34&lt;/sys_created_on&gt;&lt;sys_id&gt;bf5ec2f2cb10120000f8d856634c9c0c&lt;/sys_id&gt;&lt;sys_mod_count&gt;501&lt;/sys_mod_count&gt;&lt;sys_name&gt;Stock Header&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;b23773bb14a11300651763392430a411&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_bf5ec2f2cb10120000f8d856634c9c0c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-01-12 16:24:58&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
+       role="navigation"&gt;
+    &lt;div ng-show="::!isViewNative" class="navbar-header"&gt;
+      &lt;a class="navbar-brand" ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"&gt;&lt;span&gt;{{::portal.title}}&lt;/span&gt;&lt;/a&gt;
+      &lt;a class="navbar-brand navbar-brand-logo" ng-if="::portal.logo" href="?id={{::portal.homepage_dv}}" aria-label="${Go to homepage}"&gt;
+        &lt;img ng-src="{{::portal.logo}}" title="ServiceNow" role="presentation" alt="${Portal Logo}" /&gt;
+      &lt;/a&gt;
+
+      &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sp-nav-bar"&gt;
+        &lt;span class="sr-only"&gt;${Toggle navigation}&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div sp-navbar-toggle="" class="collapse navbar-collapse navbar-right scrollable-dropdown" id="sp-nav-bar"&gt;
+      &lt;!-- Include The Menu --&gt;
+      &lt;sp-widget widget="::data.menu"&gt;&lt;/sp-widget&gt;
+      &lt;ul ng-if="::(!user.logged_in &amp;&amp; page.id != portal.login_page_dv &amp;&amp; !data.hasLogin)" class="nav navbar-nav"&gt;
+        &lt;li&gt;&lt;a href ng-click="::openLogin()"&gt;${Login}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul ng-if="::user.logged_in" class="nav navbar-nav" aria-haspopup="true"&gt;
+        &lt;!-- chat, avatar, and logout --&gt;
+        &lt;li ng-if="::data.connect_support_queue_id"&gt;&lt;a href ng-click="openPopUp()"&gt;${Live Chat}&lt;/a&gt;&lt;/li&gt;
+        &lt;li ng-if="showAvatar" class="hidden-xs dropdown"&gt;
+          &lt;a href class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="{{::data.profileBtnMsg}}" id="profile-dropdown" role="button" aria-haspopup="true"&gt;
+            &lt;span class="navbar-avatar" aria-hidden="true"&gt;&lt;sn-avatar class="avatar-small-medium" primary="avatarProfile" /&gt;&lt;/span&gt;
+            &lt;span class="visible-lg-inline"&gt;{{::user.name}}&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;ul class="dropdown-menu" role="menu"&gt;
+            &lt;li role="presentation"&gt;&lt;a ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}" role="menuitem"&gt;${Profile}&lt;/a&gt;&lt;/li&gt;
+            &lt;li ng-if="::!isViewNative" role="presentation"&gt;&lt;a href="{{::portal.logoutUrl}}" role="menuitem"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+        &lt;li ng-if="showXSAvatar" class="visible-xs-block"&gt;&lt;a ng-href="?id=user_profile&amp;sys_id={{::user.sys_id}}"&gt;
+          &lt;span class="navbar-avatar"&gt;&lt;sn-avatar class="avatar-small-medium" primary="avatarProfile" /&gt;&lt;/span&gt;{{::user.name}}&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li ng-if="::!isViewNative" class="visible-xs-block"&gt;&lt;a href="{{::portal.logoutUrl}}"&gt;${Logout}&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/nav&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload><sys_class_name>sp_rel_widget_clone</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2018-05-25 22:18:02</sys_created_on><sys_id>7660e2a1db521300e0d5f6dfbf9619d8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>7a606e61db521300e0d5f6dfbf9619ce</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sp_rel_widget_clone_7660e2a1db521300e0d5f6dfbf9619d8</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2018-05-25 22:18:02</sys_updated_on></sp_rel_widget_clone></record_update>]]></payload>
+<payload_hash>1315507994</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>e584abd0dbc87300a383f34ebf961966</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1691be099eb0000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>7a606e61db521300e0d5f6dfbf9619ce</target_name>
+<type>Widget Clone</type>
+<update_domain>global</update_domain>
+<update_guid>7a60e2a1c35213002f4f35c0110886d9</update_guid>
+<update_guid_history>7a60e2a1c35213002f4f35c0110886d9:1315507994</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_parameters_14b3f8fcdb97a300a383f34ebf9619a3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters"><sys_rest_message_fn_parameters action="INSERT_OR_UPDATE"><name>q</name><rest_message_function display_value="Google Translate">1c8529ecdbd36300a383f34ebf9619f8</rest_message_function><sys_class_name>sys_rest_message_fn_parameters</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-01-26 19:41:30</sys_created_on><sys_id>14b3f8fcdb97a300a383f34ebf9619a3</sys_id><sys_mod_count>4</sys_mod_count><sys_name>q</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_parameters_14b3f8fcdb97a300a383f34ebf9619a3</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-01-27 03:43:50</sys_updated_on><type>string</type><value>hello</value></sys_rest_message_fn_parameters></record_update>]]></payload>
+<payload_hash>541409822</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>e584abd0dbc87300a383f34ebf961969</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694555f2140000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>q</target_name>
+<type>Variable Substitutions</type>
+<update_domain>global</update_domain>
+<update_guid>a89d5a548e0873005623248677766179</update_guid>
+<update_guid_history>a89d5a548e0873005623248677766179:541409822,e512a270381be3008540672131ae0985:-2096853096,acb1e6b8d9d7e300b0bbd109e19126ac:-542908890,046122f46bd7e300779430903e655193:-2015539195,4221ae7880d7e300d1ecf5266488f966:-1465939770,d4b3f8fce197a3005f3a97471b2927a4:204890877</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_b8b512dcdbc47300a383f34ebf961968</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="snGoogleTranslate">06d878f5db332300a383f34ebf96198d</category><order>400</order><property display_value="google.translate.import.choices" name="google.translate.import.choices">7345d69cdbc47300a383f34ebf96199d</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>mike.bahr</sys_created_by><sys_created_on>2019-03-03 20:19:51</sys_created_on><sys_id>b8b512dcdbc47300a383f34ebf961968</sys_id><sys_mod_count>1</sys_mod_count><sys_name>google.translate.import.choices.snGoogleTranslate</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_b8b512dcdbc47300a383f34ebf961968</sys_update_name><sys_updated_by>mike.bahr</sys_updated_by><sys_updated_on>2019-03-03 20:20:35</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-378474594</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>e984abd0dbc87300a383f34ebf961968</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16946703e370000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>google.translate.import.choices.snGoogleTranslate</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>512467d07fc873009d16cdef52973d07</update_guid>
+<update_guid_history>512467d07fc873009d16cdef52973d07:-378474594,3fd55a9c99c4730095dccc372bcaaecc:-378474594,0db512dc01c4730066d8067986fa9b6a:-1314793215</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_script_3368aa45db000300635c793ebf96193d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;name&gt;snGoogleTranslate&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var ga = new GlideAjax('snGoogleTranslate');
+ga.addParam('sysparm_name', 'ui16');
+ga.getXML(GoogleTranslateUI16);
+
+function GoogleTranslateUI16(response) {
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	if(answer == 'true'){
+		google_translate();
+	}
+}
+
+function google_translate()
+{
+	if (typeof jQuery === 'function' &amp;&amp; typeof top.$j === 'function') {
+		jQuery(document).ready(function () {
+			var top = window.top;
+			if (typeof top.google_translate_loaded != 'undefined') {
+				return;
+			}
+			top.google_translate_loaded = true;
+			
+			
+			var googleTranslate;
+			
+			googleTranslate = '&lt;div id="google_translate_element" class="navpage-header-content"&gt;' +
+			'&lt;/div&gt;' +
+			'&lt;script type="text/javascript"&gt;' +
+			'function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: "en", layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, "google_translate_element");}' +
+				'&lt;/script&gt;'+
+				'&lt;script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"&gt;' +
+				'&lt;/script&gt;';
+				top.$j('#sysparm_search').parents('div.navpage-header-content').first().before(googleTranslate);
+				
+			}
+			
+			);
+		}
+	}]]&gt;&lt;/script&gt;&lt;script_name/&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-07-17 17:08:26&lt;/sys_created_on&gt;&lt;sys_id&gt;3368aa45db000300635c793ebf96193d&lt;/sys_id&gt;&lt;sys_mod_count&gt;32&lt;/sys_mod_count&gt;&lt;sys_name&gt;snGoogleTranslate&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_3368aa45db000300635c793ebf96193d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mike.bahr&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-03 20:42:57&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1871945722</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>e984abd0dbc87300a383f34ebf96196b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>169454b9f570000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>snGoogleTranslate</target_name>
+<type>UI Script</type>
+<update_domain>global</update_domain>
+<update_guid>67fa5e900f087300a48c6b0011505af1</update_guid>
+<update_guid_history>67fa5e900f087300a48c6b0011505af1:-1871945722,b37bfd580d847300f0193a41f3bae3e2:973543888,21f3197520f323000e5041ec05320699:-1697993111,d75395b136f32300c19deca1c42ddec2:1765438128,de4395b153f323006756fd2d6ef00fbd:77778753,ba52d5fd25b3230099549ec12afd4609:1162017442,822251fd5bb32300c6246aef6a549bb6:-1985103248,100291bd51b323004d3959aba1035f72:54305131,81b195b994b323002ef60c293b5e1c5e:1056352359,214095797bb32300a0bc9171dcaab075:1002979855,51bfcdf548b323009cc66071e0b1465e:-820252521,608dc9f156b32300138548e45abcea74:446300843,e02dc97d3f73230004cfdee786a82c18:-1131391728,dc1d493115b3230008657881f8b52118:1835013346,9aac4db95f7323005d0ca0e1f62e1f87:514909607,6c5cc179c5732300f690a649b32ac56f:-544844103,9cf2cdf1d373230047e01d5f77f64c08:158402380,99910971f473230011b559d913b306cf:-1535904599,e2931fc18b8003005046387a1e8e850b:-345065421,2193dbc158800300ea0be4b13ab8d5ed:-102768342,31e15f41658003006caa27bb48e25625:-345065421,12a19b0194800300a6c972742bde8702:-49759235,aac38b098e4003009fa36f973993cc7b:-1879435260,8673c7499a40030035d29e8341cd9d56:-475190614,28828b85d14003004342fb8fbfe75a27:-973595538,0164f289b1000300250089ccb66fe5e5:818234458,d28c2209e3000300371db4b3e2a3c1bf:-86387250,8e5c2289810003003eea7b2c2c1cda60:1377599186,841c22099f0003005cff9a81b52eceba:1491064108,4e8baec5590003003cb3eda9cbb679dd:693769704,3d4b2a09540003005e443ff8560b94c3:1871200859,2f3aaac5fc000300c2a2ddbb56ae52f7:852060131,218962854c0003003f5c7c4a40a82990:1542377904</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_06d878f5db332300a383f34ebf96198d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_properties_category"&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;&lt;name&gt;snGoogleTranslate&lt;/name&gt;&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mike.bahr&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-23 19:09:44&lt;/sys_created_on&gt;&lt;sys_id&gt;06d878f5db332300a383f34ebf96198d&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;snGoogleTranslate&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_properties_category_06d878f5db332300a383f34ebf96198d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mike.bahr&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-03-03 20:00:19&lt;/sys_updated_on&gt;&lt;title&gt;&lt;![CDATA[&lt;p&gt;System Properties for snGoogleTranslate&lt;/p&gt;]]&gt;&lt;/title&gt;&lt;/sys_properties_category&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=06d878f5db332300a383f34ebf96198d"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1933600393</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>ed84abd0dbc87300a383f34ebf961967</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694549e7190000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table/>
+<target_name>snGoogleTranslate</target_name>
+<type>System Property Category</type>
+<update_domain>global</update_domain>
+<update_guid>049a5a903d087300561796b786131a15</update_guid>
+<update_guid_history>049a5a903d087300561796b786131a15:1933600393,07319ed813c4730042c13764e5f0790d:1933600393,88311ed8d5c473003343af9a98f1d4f9:685510408,08f8fc75b63323001d4f47244a580c72:-368943464</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_54c23346db372300a383f34ebf961909</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_choice&lt;/collection&gt;&lt;condition&gt;gs.getProperty('google.translate.prevent.dupe.choices') == 'true'&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;No Duplicates&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[if (current.operation() == "update") {
+    handleUpdate();
+} else {
+    handleInsert();
+}
+
+function handleUpdate() {
+    var errMsgBgnng;
+
+    if (current.name == previous.name &amp;&amp; current.element == previous.element &amp;&amp; current.language == previous.language &amp;&amp; current.value == previous.value) {
+        // Allow update to other fields
+        gs.log("-----------------sys_choice: B4BR::NoDuplicates: Keys haven't changed.  Allowing to proceed with the update.");
+        return;
+    }
+
+    if (current.name != previous.name) {
+        // Prevent name change
+        gs.log("-----------------sys_choice: B4BR::NoDuplicates: Name have changed.  Aborting update.");
+        errMsgBgnng = gs.getMessage(GlideMetaData.getTableFieldLabel('sys_choice', 'name'));
+        current.name.setError(errMsgBgnng + " " + gs.getMessage("in documentation record can not be changed."));
+    } else if (current.element != previous.element) {
+        // Prevent element change
+        gs.log("-----------------sys_choice: B4BR::NoDuplicates: Element have changed.  Aborting update.");
+        errMsgBgnng = gs.getMessage(GlideMetaData.getTableFieldLabel('sys_choice', 'element'));
+        current.element.setError(errMsgBgnng + " " + gs.getMessage("in documentation record can not be changed."));
+    } else if (current.language != previous.language) {
+        // Prevent language change
+        gs.log("-----------------sys_choice: B4BR::NoDuplicates: Language have changed.  Aborting update.");
+        errMsgBgnng = gs.getMessage(GlideMetaData.getTableFieldLabel('sys_choice', 'language'));
+        current.language.setError(errMsgBgnng + " " + gs.getMessage("in documentation record can not be changed."));
+    }
+    current.setAbortAction(true);
+}
+
+function handleInsert() {
+    // Prevent duplicate table entries
+    gs.log("-----------------sys_choice: B4BR::NoDuplicates: Keys changed or insert. Doing validation.");
+    var label = new GlideRecord('sys_choice');
+    label.addQuery('name', current.name);
+    label.addQuery('element', current.element);
+    label.addQuery('language', current.language);
+    label.addQuery('value', current.value);
+
+    label.query();
+    if (label.next()) {
+        var errMsg = gs.getMessage("A choice record with the same values of") + " " +
+            gs.getMessage(GlideMetaData.getTableFieldLabel('sys_choice', 'name')) + gs.getMessage(",") + " " +
+            gs.getMessage(GlideMetaData.getTableFieldLabel('sys_choice', 'value')) + gs.getMessage(",") + " " +
+            gs.getMessage(GlideMetaData.getTableFieldLabel('sys_choice', 'element')) + " " + gs.getMessage("and") + " " +
+            gs.getMessage(GlideMetaData.getTableFieldLabel('sys_choice', 'language')) + " " +
+            gs.getMessage("fields already exists");
+        gs.addErrorMessage(errMsg);
+        current.setAbortAction(true);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;mike.bahr&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-02-25 03:20:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;54c23346db372300a383f34ebf961909&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;No Duplicates&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_54c23346db372300a383f34ebf961909&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;mike.bahr&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-02-25 03:28:36&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=54c23346db372300a383f34ebf961909"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1479105872</payload_hash>
+<remote_update_set display_value="snGoogleTranslate v3">2184abd0dbc87300a383f34ebf961966</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>mike.bahr</sys_created_by>
+<sys_created_on>2019-03-04 02:04:13</sys_created_on>
+<sys_id>ed84abd0dbc87300a383f34ebf96196a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1694551cbf90000001</sys_recorded_at>
+<sys_updated_by>mike.bahr</sys_updated_by>
+<sys_updated_on>2019-03-04 02:04:13</sys_updated_on>
+<table>sys_choice</table>
+<target_name>No Duplicates</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>5e8cda1441087300a05330f22f10d982</update_guid>
+<update_guid_history>5e8cda1441087300a05330f22f10d982:-1479105872,5db4f3c6fb372300a9c767cae1b60660:-1479105872,8b44b3c6463723003fb3f4e382447ac5:2125179930,2a0433864a3723009f0c6b38c17d9e3f:39720346,54c23346c5372300544446d18034e30c:1327440100</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
