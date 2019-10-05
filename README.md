@@ -29,6 +29,13 @@ Google Translate and ServiceNow integration.
 
 ![Screenshot](./screenshots/screenshot.png)
 
+### Configure available languages
+
+1. In the snGoogleTranslate UI Script, locate line 28 which starts with "function googleTranslateElementInit()"
+2. Add the below in between the pageLanguage and layout object keys
+3. includedLanguages: "es,fr",
+4. This will limit the languages displayed to Spanish and French as an example
+
 ## Service Portal Header Instructions
 
 1. Browse to Service Portal > Themes in the left navigator
@@ -40,6 +47,13 @@ Google Translate and ServiceNow integration.
 Your Service Portal header should look like
 
 ![SP-Screenshot](./screenshots/sp-screenshot.png)
+
+### Configure available languages
+
+1. In the Stock Header w/ Google Translate, locate line 27 which starts with the pageLanguage object key
+2. Place a comma and then a new line and add the below object key value
+3. includedLanguages: "es,fr"
+4. This will limit the languages displayed to Spanish and French as an example
 
 ## Connect Translate
 
